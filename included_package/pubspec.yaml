@@ -1,0 +1,23 @@
+name: included_package
+description: A simple flutter package
+version: 1.0.0
+resolution: workspace
+publish_to: none
+
+environment:
+  sdk: ^3.6.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  base:
+    path: ../base
+
+dev_dependencies:
+  lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/

@@ -1,0 +1,10 @@
+name: flutter_workspace_assets_bug
+publish_to: none
+environment:
+  sdk: ^3.6.0
+
+workspace:
+  - app
+  - base
+  - included_package
+  - excluded_package
